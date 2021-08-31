@@ -23,5 +23,5 @@ int main()
 }
 
 // Input: 15
-//		  3
+//   3
 // Output: 455
