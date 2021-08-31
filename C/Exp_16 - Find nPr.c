@@ -24,5 +24,5 @@ int main()
 }
 
 // Input: 15
-//		  3
+//		    3
 // Output: Permutation = 2730
