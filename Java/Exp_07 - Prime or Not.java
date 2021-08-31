@@ -1,6 +1,14 @@
+/** START
+*    Step 1 → Take integer variable A
+*    Step 2 → Divide the variable A with (A-1 to 2)
+*    Step 3 → If A is divisible by any value (A-1 to 2) it is not prime
+*    Step 4 → Else it is prime
+*   STOP
+*/
+
 import java.util.Scanner;
 
-public class PrimeCheck
+public class Main
 {
    public static void main(String args[])
    {		
@@ -26,3 +34,7 @@ public class PrimeCheck
 	   System.out.println(num + " is not a prime number");
    }
 }
+
+/** Input: 33
+* Output: 33 is not a prime number
+*/
