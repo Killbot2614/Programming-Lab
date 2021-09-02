@@ -9,21 +9,25 @@
 //    (b) Divide num by 10
 // (3) Return rev_num
 
+#include <stdio.h>
 
-#include<stdio.h>
+int reverse(int, int);
+
 int main()
 {
-    int num,rem,reverse_num=0;
-    scanf("%d",&num);
-    while(num>=1)
-    {
-        rem=num%10;
-        reverse_num=reverse_num*10+rem;
-        num=num/10;
-        
-    }
-    printf("Reverse is : %d",reverse_num);
+    int number, result;
+    scanf("%d", &number);
+    result = reverse(number, 0);
+    printf("Reverse is : %d", result);
     return 0;
+}
+
+int reverse(int num, int rev)
+{
+    if(num == 0)
+        return rev;
+    else
+        return reverse (num / 10, rev * 10 + num % 10);
 }
 
 // (1)
