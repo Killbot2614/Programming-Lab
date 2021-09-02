@@ -1,11 +1,11 @@
 // Java Program to Check Whether a Number is Prime or Not
 
-/** START
-*    Step 1 → Take integer variable A
-*    Step 2 → Divide the variable A with (A-1 to 2)
-*    Step 3 → If A is divisible by any value (A-1 to 2) it is not prime
-*    Step 4 → Else it is prime
-*   STOP
+/*  START
+     Step 1 → Take integer variable A
+     Step 2 → Divide the variable A with (A-1 to 2)
+     Step 3 → If A is divisible by any value (A-1 to 2) it is not prime
+     Step 4 → Else it is prime
+    STOP
 */
 
 import java.util.Scanner;
@@ -37,6 +37,6 @@ public class Main
    }
 }
 
-/** Input: 33
-* Output: 33 is not a prime number
+/*  Input: 33
+  Output: 33 is not a prime number
 */
