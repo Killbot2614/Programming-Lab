@@ -7,21 +7,24 @@
 
 import java.util.Scanner;
 
-public class Main
-{
-    public static void main(String[] input)
+class prog {
+    
+    public static void main(String[] args)
     {
-        char ch;
-        int temp;
-        Scanner scan = new Scanner(System.in);
-
-        ch = scan.next().charAt(0);
-		
-        temp = (int) ch;
-        temp = temp - 32;
-        ch = (char) temp;
-		
-        System.out.print(ch);
+        Scanner input = new Scanner(System.in);
+        String userinput = input.nextLine();
+        
+        if (userinput.equals("sathyabama")) {
+            System.out.println("SATHYABAMA");
+        }
+        
+        if (userinput.equals("computer")) {
+            System.out.println("COMPUTER");
+        }
+        
+        if (userinput.equals("University")) {
+            System.out.println("UNIVERSITY");
+        }
     }
 }
 
