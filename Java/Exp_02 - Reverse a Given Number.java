@@ -1,3 +1,5 @@
+// Java Program to reverse a given number using Recursive function
+
 /** Input:  num
 * (1) Initialize rev_num = 0
 * (2) Loop while num > 0
