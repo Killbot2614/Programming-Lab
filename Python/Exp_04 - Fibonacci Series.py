@@ -18,13 +18,12 @@ b = 1
 sum = 0
 count = 1
 print(end = "")
-
-while(count <= n):
+while (count <= n):
     print(sum, end = " ")
-    count += 1
-    a = b
-    b = sum
-    sum = a + b
+count += 1
+a = b
+b = sum
+sum = a + b
 
 
 # Input: 5
