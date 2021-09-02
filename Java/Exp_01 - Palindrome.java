@@ -8,14 +8,14 @@
 
 import java.util.*;
 
-public class Palindrome
+public class Main
 {
     public static void main(String args[])
     {
         int num, tNum, sum;
         
-        Scanner bf = new Scanner(System.in);
-        num = bf.nextInt();
+        Scanner sc = new Scanner(System.in);
+        num = sc.nextInt();
         tNum = num;
         sum = 0;
         while(tNum > 0)
