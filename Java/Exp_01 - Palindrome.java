@@ -1,3 +1,5 @@
+// Java Program to find whether the given number is palindrome or not?
+
 /** Take the value of the integer and store in a variable.
 * Transfer the value of the integer into another temporary variable.
 * Using a while loop, get each digit of the number and store the reversed number in another variable.
