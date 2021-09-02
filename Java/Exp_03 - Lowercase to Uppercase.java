@@ -1,8 +1,8 @@
 // Java Program to convert lowercase string to uppercase string
 
-/** Get the input string
-* Convert lower case to upper case 
-* Print the output
+/*  Get the input string
+  Convert lower case to upper case 
+  Print the output
 */
 
 import java.util.Scanner;
@@ -28,15 +28,15 @@ class prog {
     }
 }
 
-/** (1)
-* Input: sathyabama
-* Output: SATHYABAMA
+/*  (1)
+  Input: sathyabama
+  Output: SATHYABAMA
 
-* (2)
-* Input: computer
-* Output: COMPUTER
+  (2)
+  Input: computer
+  Output: COMPUTER
 
-* (3)
-* Input: University
-* Output: UNIVERSITY
+  (3)
+  Input: University
+  Output: UNIVERSITY
 */
