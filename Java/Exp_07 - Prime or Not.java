@@ -1,3 +1,5 @@
+// Java Program to Check Whether a Number is Prime or Not
+
 /** START
 *    Step 1 → Take integer variable A
 *    Step 2 → Divide the variable A with (A-1 to 2)
