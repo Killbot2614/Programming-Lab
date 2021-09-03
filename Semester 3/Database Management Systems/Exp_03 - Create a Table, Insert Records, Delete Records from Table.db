@@ -1,0 +1,14 @@
+create  table client_master 
+ ( 
+ client_no varchar(6) primary key, 
+ name varchar(20), 
+ city varchar(15), 
+ pincode int(6), 
+ state varchar(15), 
+ bal_due decimal(10,2) 
+ ); 
+ 
+insert into client_master values('0001','Ivan','Bombay',400054,'Maharashtra',15000); 
+insert into client_master values('0002','Vandana','Madras',780001,'Tamilnau',756742.54); 
+insert into client_master values('0003','Pramada','Bombay',400057,'Maharashtra',5000.45); 
+select * from client_master;

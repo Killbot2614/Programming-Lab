@@ -1,0 +1,12 @@
+create table student_db
+    (
+    regno int(11),
+    student_name char(30),
+    student_dept varchar(25),
+    date_of_join date
+    );
+
+insert into student_db values(1234,'Kumar21','CSE_18scs123','2019-03-22'), (567,'Rohit_sathyabama_Institute','Mech3','2019-05-12');
+
+update student_db set student_name='Rohit_sathya' where regno=567;
+select * from student_db;
