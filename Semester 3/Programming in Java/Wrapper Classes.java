@@ -4,18 +4,24 @@
 
 import java.util.*;
 
-public class Main
-{
-    public static void main(String args[])
-    {
+public class Main {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int x = sc.nextInt();
-        if (x == 12) {
-            System.out.println("Length : 4");
-            System.out.println("Output : 1245");
-        } else {
-            System.out.println("Length : 7");
-            System.out.println("Output : 5563.98");
+        String x = sc.nextLine();
+        String y = sc.nextLine();
+        
+        Integer x1 = Integer.valueOf(x);
+        
+        try {
+            Integer y1 = Integer.valueOf(y);
+            System.out.println("Length : "+ (x1.toString() + y1.toString()).length());
+            System.out.println("Output : "+ (x1.toString() + y1.toString()));
+        }
+        
+        catch (NumberFormatException e) {
+            Float y1 = Float.valueOf(y);
+            System.out.println("Length : "+ (x1.toString() + y1.toString()).length());
+            System.out.println("Output : "+ (x1.toString() + y1.toString()));
         }
     }
 }
