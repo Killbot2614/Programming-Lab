@@ -14,14 +14,14 @@ public class Main {
         
         try {
             Integer y1 = Integer.valueOf(y);
-            System.out.println("Length : "+ (x1.toString() + y1.toString()).length());
-            System.out.println("Output : "+ (x1.toString() + y1.toString()));
+            System.out.println("Length : " + (x1.toString() + y1.toString()).length());
+            System.out.println("Output : " + (x1.toString() + y1.toString()));
         }
         
         catch (NumberFormatException e) {
             Float y1 = Float.valueOf(y);
-            System.out.println("Length : "+ (x1.toString() + y1.toString()).length());
-            System.out.println("Output : "+ (x1.toString() + y1.toString()));
+            System.out.println("Length : " + (x1.toString() + y1.toString()).length());
+            System.out.println("Output : " + (x1.toString() + y1.toString()));
         }
     }
 }
