@@ -59,9 +59,8 @@ for i in range(n):
     L1.insertAtMiddle(arr[i])
 L1.show()
 
-# Input :
+# Input:
 # [ 1, 2, 3, 4, 5]
 
-# Output :
+# Output:
 # 1 -> 3 -> 5 -> 4 -> 2 -> NULL
-
