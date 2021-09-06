@@ -21,6 +21,5 @@ int main()
 
 /* Input: Are You a Robot ?
           No
-
    Output: You're Welcome!
 */
