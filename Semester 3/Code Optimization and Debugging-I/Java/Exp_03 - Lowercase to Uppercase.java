@@ -7,24 +7,18 @@
 
 import java.util.Scanner;
 
-class prog {
-    
-    public static void main(String[] args)
+public class Main
+{
+    public static void main(String[] input)
     {
-        Scanner input = new Scanner(System.in);
-        String userinput = input.nextLine();
+        String strUpper, strLower;
+        Scanner scan = new Scanner(System.in);
         
-        if (userinput.equals("sathyabama")) {
-            System.out.println("SATHYABAMA");
-        }
         
-        if (userinput.equals("computer")) {
-            System.out.println("COMPUTER");
-        }
+        strUpper = scan.nextLine();
         
-        if (userinput.equals("University")) {
-            System.out.println("UNIVERSITY");
-        }
+        strLower = strUpper.toUpperCase();
+        System.out.print(strLower);
     }
 }
 
