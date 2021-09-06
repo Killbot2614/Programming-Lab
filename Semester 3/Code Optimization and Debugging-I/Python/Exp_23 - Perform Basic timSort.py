@@ -81,11 +81,11 @@ tim_sort(array)
 print("After Sorting Array is")
 print(array)
 
-# Input : 
+# Input: 
 # Given Array is
 # -2, 7, 15, -14, 0, 15, 0, 7, -7, -4, -13, 5, 8, -14, 12
 
-# Output :
+# Output:
 # Given Array is
 # [-2, 7, 15, -14, 0, 15, 0, 7, -7, -4, -13, 5, 8, -14, 12]
 # After Sorting Array is
