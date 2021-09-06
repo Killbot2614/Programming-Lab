@@ -112,13 +112,12 @@ if __name__ == '__main__':                                       # 2 underscores
     printList(arr)
 
 
-# Input : 
+# Input: 
 # Given array is
 # 12 11 13 5 6 7
 
-# Output :
+# Output:
 # Given array is
 # 12 11 13 5 6 7
 # Sorted array is: 
 # 5 6 7 11 12 13 
-
