@@ -4,8 +4,8 @@ a = 10
 b = list(map(lambda x: 2 ** x, range(a)))
 for c in range(a): print("2 raised to power", c, "is", b[c])
 
-# Input : The total terms are: 10
-# Output : 2 raised to power 0 is 1
+# Input: The total terms are: 10
+# Output: 2 raised to power 0 is 1
 #		   2 raised to power 1 is 2
 #		   2 raised to power 2 is 4
 #		   2 raised to power 3 is 8
