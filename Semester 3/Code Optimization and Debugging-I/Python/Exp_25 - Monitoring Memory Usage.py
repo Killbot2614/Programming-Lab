@@ -15,5 +15,4 @@ app()
 print(tracemalloc.get_traced_memory())
 tracemalloc.stop()
 
-# Output : (0, 3617252)
-
+# Output: (0, 3617252)
