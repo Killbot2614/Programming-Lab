@@ -1,3 +1,5 @@
+# Python Program to Display Powers of 2 Using Anonymous Function
+
 # To display powers of the integer 2 using Python anonymous function.
 
 a = 10
