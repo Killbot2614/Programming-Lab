@@ -20,16 +20,16 @@ int main()
     
     while(n>0)
     {    
-        a[i]=n%2;    
-        n= n/2; 
+        a[i]=n % 2;    
+        n= n / 2; 
         i++;
     }
     
-    for(i=i-1 ;i>=0 ;i--)    
+    for(i= i - 1 ;i >= 0 ;i--)    
     {    
         cout<<a[i];    
     }   
-    cout<<endl<<"Decimal form of "<<num<<" is ";
+    cout << endl << "Decimal form of "<< num <<" is ";
     
     while ( num > 0)  
     {  
