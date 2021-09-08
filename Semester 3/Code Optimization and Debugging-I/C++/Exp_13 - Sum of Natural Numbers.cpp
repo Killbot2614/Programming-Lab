@@ -8,19 +8,19 @@ If user enter 8 , then our program will calculate sum upto that number.
 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 = 36
 */
 
-#include<iostream>
+#include <iostream>
 using namespace std;
 int recurSum(int n)
 {
-    if(n<=1)
+    if (n <= 1)
       return n;
     return n + recurSum(n-1);  
 }
 
 int main()
 {
- int n=10;
- cout<<"Sum = "<<recurSum(n);
+ int n = 10;
+ cout << "Sum = " << recurSum(n);
  return 0;
 }
 
