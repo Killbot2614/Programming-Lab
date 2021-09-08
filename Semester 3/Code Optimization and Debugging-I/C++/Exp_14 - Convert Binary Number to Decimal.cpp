@@ -9,39 +9,37 @@
 7. The decimal equivalent is stored in dec and printed.
 */
 
-#include<bits/stdc++.h>
+#include <iostream>  
 using namespace std;
-string decimalToBinary(int n)
-{
-    string s= bitset<64> (n).to_string();
-    const auto loc1 = s.find('1');
-    if(loc1 !=string::npos)
-      return s.substr(loc1);
-    return "0";  
-}
-int binaryToDecimal(int n)
-{
-    int num=n;
-    int dec_value=0;
-    int base=1;
-    int temp=num;
-    while(temp)
-    {
-        int last_digit=temp%10;
-        temp=temp/10;
-        dec_value+=last_digit*base;
-        base=base*2;
-        
-    }
-    return dec_value;
-}
 
-int main()
-{
-    int n=23;
-    cout<<"Binary form of 23 is "<< decimalToBinary(n)<<endl;
-    int num= 10101;
-    cout<<"Decimal form of 10101 is "<<binaryToDecimal(num)<<endl;
+int main()  
+{  
+    int num = 10101, decimal_num = 0, base = 1, rem, a[10], n = 23, i=0; 
+    
+    cout<<"Binary form of " << n <<" is ";   
+    
+    while(n>0)
+    {    
+        a[i]=n%2;    
+        n= n/2; 
+        i++;
+    }
+    
+    for(i=i-1 ;i>=0 ;i--)    
+    {    
+        cout<<a[i];    
+    }   
+    cout<<endl<<"Decimal form of "<<num<<" is ";
+    
+    while ( num > 0)  
+    {  
+        rem = num % 10;
+        decimal_num = decimal_num + rem * base;  
+        num = num / 10;
+        base = base * 2;  
+    }  
+    
+    cout << decimal_num << endl;
     return 0;
 }
 
