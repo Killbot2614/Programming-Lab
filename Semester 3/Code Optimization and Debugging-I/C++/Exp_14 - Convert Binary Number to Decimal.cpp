@@ -14,32 +14,32 @@ using namespace std;
 
 int main()  
 {  
-    int num = 10101, decimal_num = 0, base = 1, rem, a[10], n = 23, i = 0; 
+    int num = 10101, n = 23, dec = 0, base = 1, rem, a[10], i = 0; 
     
     cout << "Binary form of " << n << " is ";   
     
-    while (n > 0)
+    while(n > 0)
     {    
         a[i] = n % 2;    
         n = n / 2; 
         i++;
     }
     
-    for (i = i - 1 ;i >= 0 ;i--)    
+    for (i = i - 1; i >= 0; i--)    
     {    
         cout << a[i];    
     }   
-    cout << endl << "Decimal form of "<< num <<" is ";
+    cout << "\n" << "Decimal form of" << num << " is ";
     
-    while ( num > 0)  
+    while (num > 0)  
     {  
         rem = num % 10;
-        decimal_num = decimal_num + rem * base;  
+        dec = dec + rem * base;  
         num = num / 10;
         base = base * 2;  
     }  
     
-    cout << decimal_num << endl;
+    cout << dec << "\n";
     return 0;
 }
 
