@@ -23,6 +23,6 @@ print("Sorted Array in Ascending Order:")
 print(arr)
 
 # Input: Array before sorting:
-         9, 8, 3, 7, 5, 6, 4, 1
+#        9, 8, 3, 7, 5, 6, 4, 1
 # Output: Sorted Array in Ascending Order:
-          [1, 3, 4, 5, 6, 7, 8, 9]
+#         [1, 3, 4, 5, 6, 7, 8, 9]
