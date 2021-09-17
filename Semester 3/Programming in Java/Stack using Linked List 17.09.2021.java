@@ -105,7 +105,7 @@ public class Main {
             After Invoking Pop Operation
             3->2->1->Null
 			
-	(2)
+    (2)
     Input: 11
            22
            33
