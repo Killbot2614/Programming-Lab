@@ -90,7 +90,7 @@ public class Main
     }
 }
 
-/* (1)
+/*  (1)
     Input: 10
            20
            30
@@ -101,7 +101,7 @@ public class Main
             After invoking Dequeue Operation
             20->30->40->Null
 			
-	(2)
+    (2)
     Input: 11
            22
            33
