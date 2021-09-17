@@ -94,7 +94,7 @@ public class Main {
     }
 }
 
-/* (1)
+/*  (1)
     Input: 10
            20
            30
