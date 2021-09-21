@@ -40,7 +40,7 @@ public class Main {
         int f = sc.nextInt();
         int g = sc.nextInt();
 		
-		Node root = new Node(a);
+	Node root = new Node(a);
         root.left = new Node(b);
         root.right = new Node(c);
         root.left.left = new Node(d);
