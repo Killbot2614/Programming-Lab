@@ -3,11 +3,7 @@
 import java.util.*;
 
 public class Main {  
-    public static void main(String[] args) {  
-        displayEvenNumbers(1, 31);  
-    }   
-    
-    private static void displayEvenNumbers(int num, int end) {  
+     private static void displayEvenNumbers(int num, int end) {  
         if (num > end)   
         return;
         
@@ -17,7 +13,11 @@ public class Main {
         } else { 
             displayEvenNumbers(num + 1, end); 
         }  
-    }   
+    }
+    
+    public static void main(String[] args) {  
+        displayEvenNumbers(1, 31);  
+    }
 }
 
 // Output: 2 4 6 8 10 12 14 16 18 20 22 24 26 28 30
