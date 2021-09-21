@@ -78,7 +78,7 @@ class Node {
    Output: Preorder:20 40 60 70 50 80 90
            Inorder:60 40 70 20 80 50 90
 		   Postorder:60 70 40 80 90 50 20
-	(2)
+   (2)
    Output: Preorder:1 2 4 5 3 6 7
            Inorder:4 2 5 1 6 3 7
 		   Postorder:4 5 2 6 7 3 1
