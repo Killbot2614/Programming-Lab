@@ -21,8 +21,8 @@ public class Main {
         inOrder(root.right);
     }
 	
-	public void postOrder(Node root) {
-        if (root == null) {
+    public void postOrder(Node root) {
+	if (root == null) {
             return;
         }
         postOrder(root.left);
