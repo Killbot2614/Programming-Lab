@@ -6,7 +6,7 @@
 
 
 long int prod(int n) {
-    return (n >= 1) ? (n * prod(n-1)): 1;
+    return (n >= 1) ? (n * prod(n - 1)): 1;
 }
 
 int main() {
