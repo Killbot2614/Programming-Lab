@@ -2,7 +2,7 @@
 
 // finds the factorial of input number and displays the output on screen. We will use a recursive user defined function to perform the task. Here we have a function find_factorial that calls itself in a recursive manner to find out the factorial of input number
 
-#include<stdio.h>
+#include <stdio.h>
 
 
 long int prod(int n) {
