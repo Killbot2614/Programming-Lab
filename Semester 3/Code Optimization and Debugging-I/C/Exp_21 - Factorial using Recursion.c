@@ -4,7 +4,6 @@
 
 #include <stdio.h>
 
-
 long int prod(int n) {
     return (n >= 1) ? (n * prod(n - 1)): 1;
 }
