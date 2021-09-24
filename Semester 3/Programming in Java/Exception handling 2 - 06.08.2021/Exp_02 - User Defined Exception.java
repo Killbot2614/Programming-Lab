@@ -12,7 +12,7 @@ public class Main
     {
         Scanner sc = new Scanner(System.in);
         int x = sc.nextInt();
-        if(x < 0)
+        if (x < 0)
         {
             System.out.println("Exception raised : Negative number");
         }
