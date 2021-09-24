@@ -12,16 +12,11 @@ public class Main
     {
         Scanner sc = new Scanner(System.in);
         int x = sc.nextInt();
-        if (x < 0)
-        {
-            System.out.println("Exception raised : Negative number");
-        }
-        else
-        {
-            System.out.println("Positive number : " + x);
-        }
+        String result = (x < 0) ? "Exception raised : Negative number" : "Positive number : " + x;
+        System.out.println(result);
     }
 }
+
 
 /* (1) 
    Input: -5
