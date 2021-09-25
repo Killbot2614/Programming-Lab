@@ -2,6 +2,17 @@
 
 import java.util.*;
 
+class Node {
+    int data;
+    Node left;
+    Node right;
+    
+    public Node(int value) {
+        data = value;
+        left = right = null;
+    }
+}
+
 public class Main {
     public void preOrder(Node root) {
         if (root == null) {
@@ -58,17 +69,6 @@ public class Main {
         
         System.out.print("\nPostorder:");
         treeOrder.postOrder(root);
-    }
-}
-
-class Node {
-    int data;
-    Node left;
-    Node right;
-    
-    public Node(int value) {
-        data = value;
-        left = right = null;
     }
 }
 
