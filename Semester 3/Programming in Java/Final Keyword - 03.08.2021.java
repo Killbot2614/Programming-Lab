@@ -9,26 +9,26 @@
 import java.io.*;
 import java.util.Scanner;
 
-class Stock{
-    final String name=("Pencil");
+class Stock {
+    final String name = ("Pencil");
     float price;
     int qty;
     
-    Scanner s=new Scanner(System.in);
+    Scanner sc = new Scanner(System.in);
     
-    void get()
+    void get1()
     {
-        price=s.nextFloat();
-        qty=s.nextInt();
+        price = sc.nextFloat();
+        qty = sc.nextInt();
     }
     
     void get2()
     {
-        price=price+2;
-        qty=qty-1;
+        price = price + 2;
+        qty = qty - 1;
     }
     
-    void show()
+    void display()
     {
         System.out.println(name);
         System.out.println(price);
@@ -40,11 +40,11 @@ public class Main extends Stock
 {
     public static void main(String[] args)
     {
-        Stock obj1=new Stock();
-        obj1.get();
-        obj1.show();
-        obj1.get2();
-        obj1.show();
+        Stock obj = new Stock();
+        obj.get1();
+        obj.display();
+        obj.get2();
+        obj.display();
     }
 }
 
