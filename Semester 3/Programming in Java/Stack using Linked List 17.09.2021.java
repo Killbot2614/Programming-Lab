@@ -34,7 +34,7 @@ class LinkedList {
         return top == null;
     }
     
-    public int peek()
+    public int peak()
     {
         if (!isEmpty()) {
             return top.data;
@@ -86,7 +86,7 @@ public class Main {
         obj.push(d);
         obj.display();
  
-        System.out.printf("Top element in Stack is : %d\n", obj.peek());
+        System.out.printf("Top element in Stack is : %d\n", obj.peak());
         obj.pop();
  
         System.out.println("After Invoking Pop Operation");
@@ -95,10 +95,10 @@ public class Main {
 }
 
 /*  (1)
-    Input: 10
-           20
-           30
-           40
+    Input: 1
+           2
+           3
+           4
 		   
     Output: 4->3->2->1->Null
             Top element in Stack is : 4
