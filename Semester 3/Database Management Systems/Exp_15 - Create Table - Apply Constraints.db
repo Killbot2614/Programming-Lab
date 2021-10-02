@@ -1,8 +1,0 @@
-create table countries (
-   Country_ID int PRIMARY KEY, 
-   Country_Name varchar(30) NOT NULL,  
-   region_id varchar(9)  
-);
-
-insert into countries values (111, 'India', 'SW134'), (134, 'Australia', 'NE456'), (145, 'Britain', 'SE787');
-select * from countries;
