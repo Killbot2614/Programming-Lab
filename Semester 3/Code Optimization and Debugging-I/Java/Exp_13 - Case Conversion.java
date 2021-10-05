@@ -22,10 +22,9 @@ public class Main {
 
 /*  (1)
     Input: WELCOME
-	Output: welcome
-	
-	(2)
-	Input: welcome
-	Output: WELCOME
-	
+    Output: welcome
+    
+    (2)
+    Input: welcome
+    Output: WELCOME
 */
