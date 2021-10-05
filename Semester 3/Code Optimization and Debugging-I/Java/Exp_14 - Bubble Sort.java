@@ -34,12 +34,7 @@ public class Main
     }
 }
 
-/* Input: 30
-          20
-          10
-          50
-          40
-   Output: 10
+/* Output: 10
            20
            30
            40
