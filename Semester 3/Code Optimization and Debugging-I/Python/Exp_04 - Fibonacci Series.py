@@ -15,8 +15,7 @@
 n = input("")
 a, b = 0, 1
 count = 1
-print(a, end = " ")
-print(b, end = " ")
+print(a, b, end = " ")
 while (int(n) > count + 1):
     sum = a + b
     print(sum, end = " ")
