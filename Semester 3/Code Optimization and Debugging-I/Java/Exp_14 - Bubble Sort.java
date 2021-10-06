@@ -39,5 +39,4 @@ public class Main
            30
            40
            50
-           
 */
