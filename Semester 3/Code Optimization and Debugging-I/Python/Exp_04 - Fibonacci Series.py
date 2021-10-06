@@ -12,19 +12,16 @@
 # Step 10:Else
 # Step 11:Repeat from steps 4 to 7
 
-n = int(input(""))
-a = 0
-b = 1
-sum = 0
+n = input("")
+a, b = 0, 1
 count = 1
-print(end = "")
-while (count <= n):
+print(a, end = " ")
+print(b, end = " ")
+while (int(n) > count + 1):
+    sum = a + b
     print(sum, end = " ")
-count += 1
-a = b
-b = sum
-sum = a + b
-
+    a, b = b, sum
+    count += 1
 
 # Input: 5
 # Output: 0 1 1 2 3
