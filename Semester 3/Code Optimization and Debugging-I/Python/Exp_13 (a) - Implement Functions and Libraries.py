@@ -10,7 +10,7 @@ def tri_recursion(k):
         result=0
     return result
 
-print("Recursive Example Results")
+print("Recursion Example Results")
 tri_recursion(6)
 
 # Input: 6
