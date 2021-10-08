@@ -29,7 +29,7 @@ int main()
     {    
         cout << a[i];    
     }   
-    cout << "\n" << "Decimal form of" << num << " is ";
+    cout << "\n" << "Decimal form of " << num << " is ";
     
     while (num > 0)  
     {  
