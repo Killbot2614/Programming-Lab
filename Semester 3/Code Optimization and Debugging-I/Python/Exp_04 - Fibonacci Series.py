@@ -15,7 +15,7 @@
 n = input("")
 a, b = 0, 1
 count = 1
-print(a, b, end = " ")
+print("Fibonacci Series: ", a, b, end = " ")
 while (int(n) > count + 1):
     sum = a + b
     print(sum, end = " ")
@@ -23,4 +23,4 @@ while (int(n) > count + 1):
     count += 1
 
 # Input: 5
-# Output: 0 1 1 2 3
+# Output: Fibonacci Series: 0 1 1 2 3
