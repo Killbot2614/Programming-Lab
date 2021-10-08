@@ -25,7 +25,7 @@ print(list4)
 # ['apple', 'banana', 'cherry']
 
 # Output:
-#['apple', 'banana', 'cherry', 'apple', 'cherry']
-#3
-#['abc', 34, True, 40, 'male']
-#['apple', 'banana', 'cherry']
+# ['apple', 'banana', 'cherry', 'apple', 'cherry']
+# 3
+# ['abc', 34, True, 40, 'male']
+# ['apple', 'banana', 'cherry']
