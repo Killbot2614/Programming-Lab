@@ -5,15 +5,12 @@
 # Step 3: If the character is vowel print Vowel otherwise print Consonant
 # Step 4: End
 
-def vowelOrConsonant(x):
-    if(x=='a' or x=='e' or x=='i' or x=='o' or x=='u'):
-     print("Vowel")
-    else:
-        print("Consonant")
-vowelOrConsonant('c')        
-vowelOrConsonant('e')
+x = input("")
 
-# Input: Enter the character: E
-# Output: Consonant
-#          Vowel
+if (x == 'A' or x == 'a' or x == 'E' or x == 'e' or x == 'I' or x == 'i' or x == 'O' or x == 'o' or x == 'U' or x == 'u'):
+    print("Vowel")
+else:
+    print("Consonant")
 
+# Input: E
+# Output: Vowel
