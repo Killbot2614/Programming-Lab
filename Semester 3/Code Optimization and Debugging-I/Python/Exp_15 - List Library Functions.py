@@ -1,18 +1,16 @@
 #  Python program to sort() , reverse() ,copy(),list(),count(),index()method, keyword reverse = True, key = function,+ operator in list Library Function.
 
-"""
-1.sort() method that will sort the list alphanumerically, ascending, by default
-2.reverse() method reverses the current sorting order of the elements
-3.Make a copy of a list with the copy() method
-4.Make a copy of a list with the list() method
-5.The count() the method returns the number of times a specified value appears in the tuple.
-6.The index() the method finds the first occurrence of the specified value.
-   The index() the method raises an exception if the value is not found.
-7.sort descending, use the keyword argument reverse = True
-8.Customize your own function by using the keyword argument key = function
-9.To join two or more tuples you can use the + operator
-10.If you want to multiply the content of a tuple a given number of times, you can use the * operator
-"""
+# 1.sort() method that will sort the list alphanumerically, ascending, by default
+# 2.reverse() method reverses the current sorting order of the elements
+# 3.Make a copy of a list with the copy() method
+# 4.Make a copy of a list with the list() method
+# 5.The count() the method returns the number of times a specified value appears in the tuple.
+# 6.The index() the method finds the first occurrence of the specified value.
+#   The index() the method raises an exception if the value is not found.
+# 7.sort descending, use the keyword argument reverse = True
+# 8.Customize your own function by using the keyword argument key = function
+# 9.To join two or more tuples you can use the + operator
+# 10.If you want to multiply the content of a tuple a given number of times, you can use the * operator
 
 list1=["orange", "mango", "kiwi", "pineapple", "banana"]
 list1.sort()
@@ -78,4 +76,3 @@ print(l)
 # [50, 65, 23, 82, 100]
 # ('a', 'b', 'c', 1, 2, 3)
 # ('apple', 'banana', 'cherry', 'apple', 'banana', 'cherry')
-
