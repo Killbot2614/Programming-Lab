@@ -5,7 +5,7 @@ find sum of first n natural numbers using recursion.
 For example, sum of first n(4) numbers using recursion is sum = 4+3+2+1 = 10
 */
 
-#include<stdio.h>
+#include <stdio.h>
 int sum(int);
 int main()
 {
@@ -22,8 +22,6 @@ int sum(int n)
       return n + sum(n-1);
 }
 
-// Input:  
-// Enter a positive integer :10
-
-// Output: 
-// The sum of first 10 numbers is 55.
+/* Input: Enter a positive integer :10
+   Output: The sum of first 10 numbers is 55.
+*/
