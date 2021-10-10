@@ -5,15 +5,11 @@
 import java.util.Scanner;
 
 class test {
-
     int n, i, p = 1;
-
     Scanner sc = new Scanner(System.in);
-
     test() {
         n = sc.nextInt();
     }
-
     void checkPrime() {
         for (i = 2; i < n; i++) {
             if (n % i == 0) {
@@ -21,23 +17,18 @@ class test {
                 break;
             }
         }
-
         if (p == 1) {
             System.out.println("Its prime no");
         } else {
             System.out.println("Its not prime no");
         }
-
     }
 }
 
-class prog {
-
-    public static void main(String args[]) {
-
+public class Main {
+    public static void main(String[] args) {
         test obj = new test();
         obj.checkPrime();
-
     }
 }
 
