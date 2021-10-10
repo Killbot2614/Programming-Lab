@@ -12,4 +12,4 @@ int main() {
     return 0;
 }
 
-// Output: 89 is an even number
+// Output: 89 is an odd number
