@@ -1,6 +1,5 @@
 #  Implement Built In Function and Libraries using python.
 
-
 # 1.lists can have items with the same value.
 # 2. determine how many items a list has, use the len() function
 # 3.list can contain different data types
