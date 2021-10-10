@@ -1,18 +1,16 @@
 # Python program to Range of Indexes,list use the in keyword,Range of Item Values,insert() ,append(),extend(),remove(),pop() ,del keyword in List built in function. 
 
-"""
-1.When specifying a range, the return value will be a new list with the specified items.
-2.Specify negative indexes if you want to start the search from the end of the list
-3. determine if a specified item is present in a list use the in keyword
-4.insert() method inserts an item at the specified index
-5. add an item to the end of the list, use the append() method
-6.insert() method inserts an item at the specified index
-7.To append elements from another list to the current list, use the extend() method
-8.The remove() method removes the specified item
-9.The pop() method removes the specified index.
-10.The del keyword also removes the specified index
-11.The clear() method empties the list
-"""
+# 1.When specifying a range, the return value will be a new list with the specified items.
+# 2.Specify negative indexes if you want to start the search from the end of the list
+# 3. determine if a specified item is present in a list use the in keyword
+# 4.insert() method inserts an item at the specified index
+# 5. add an item to the end of the list, use the append() method
+# 6.insert() method inserts an item at the specified index
+# 7.To append elements from another list to the current list, use the extend() method
+# 8.The remove() method removes the specified item
+# 9.The pop() method removes the specified index.
+# 10.The del keyword also removes the specified index
+# 11.The clear() method empties the list
 
 list1=["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
 print(list1[2:][:3])
