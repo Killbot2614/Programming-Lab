@@ -34,4 +34,3 @@ int main()
 //           * * *
 //          * * * *
 //         * * * * *
-Passed all tests!  
