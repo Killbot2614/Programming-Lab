@@ -14,7 +14,6 @@ print("Recursion Example Results")
 tri_recursion(6)
 
 # Input: 6
-
 # Output: 
 # Recursion Example Results
 # 1
