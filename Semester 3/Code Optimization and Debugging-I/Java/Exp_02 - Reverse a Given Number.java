@@ -25,13 +25,13 @@ public static void main(String[] args) {
 
 /*  (1) 
     Input: 4562
-	Output: Reverse is : 2654
+    Output: Reverse is : 2654
 	
-	(2)
-	Input: 1234
-	Output: Reverse is : 4321
+    (2)
+    Input: 1234
+    Output: Reverse is : 4321
 	
-	(3)
-	Input: 5006
-	Output: Reverse is : 6005
+    (3)
+    Input: 5006
+    Output: Reverse is : 6005
 */
