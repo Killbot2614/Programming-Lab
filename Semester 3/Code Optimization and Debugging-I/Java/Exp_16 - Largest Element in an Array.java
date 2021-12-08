@@ -37,7 +37,7 @@ public class Main {
           10
           50
           30
-		  90
+          90
    Output: 90
 
 */
