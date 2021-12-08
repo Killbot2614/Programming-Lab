@@ -21,8 +21,9 @@ public class Main {
       int[] arr = new int[5];
       Scanner sc = new Scanner(System.in);
      
-      for(i = 0; i < 5; i++)
+      for(i = 0; i < 5; i++) {
          arr[i] = sc.nextInt();
+      }
       
       large = arr[0];
       for(i = 1; i < 5; i++) {
