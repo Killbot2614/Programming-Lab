@@ -2,8 +2,8 @@
 
 # Find whether palindrome or not for the given input
 
-n = input()
-print('{} is a palindrome number'.format(int(n))) if n[0:] == n[::-1] else print('{} is not a palindrome number'.format(int(n)))
+n = "1001"
+print('{} is a palindrome'.format(int(n))) if n[0:] == n[::-1] else print('{} is not a palindrome'.format(int(n)))
 
-# Input: 121
-# Output: 121 is a palindrome number
+# Input: 1001
+# Output: 1001 is a palindrome
