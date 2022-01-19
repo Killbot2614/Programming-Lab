@@ -16,7 +16,7 @@ def bubbleSort(arr):
 arr = [20, 50, 40, 30, 10]
 
 bubbleSort(arr)
-print(' '.join(map(str,arr)))
+print(' '.join(map(str, arr)))
 
 # Input: 20 50 40 30 10
 # Output: 10 20 30 40 50
