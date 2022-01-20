@@ -41,15 +41,17 @@ int main()
 
 /* (1) 
    Input: 10
-          10 12 20 32 50 55 65 80 99 25
-		  50
+          10 12 20 32 50 55 65 80 99 25 
+	  50
    Output: 50 is found at the position 5
    (2) 
    Input: 7
-          10 20 30 40 50 60 70 65
+          10 20 30 40 50 60 70 
+	  65
    Output: 65 is not found in the given array
    (3) 
    Input: 5
-          11 22 33 44 55 44
+          11 22 33 44 55 
+	  44
    Output: 44 is found at the position 4
 */
