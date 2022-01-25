@@ -46,3 +46,7 @@ int main()
     cout << ans;
     return 0;
 }
+
+/* Input: 80
+   Ouptut: 80
+*/
