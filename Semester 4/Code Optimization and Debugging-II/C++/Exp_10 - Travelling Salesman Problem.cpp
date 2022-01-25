@@ -18,8 +18,7 @@ using std::cout;
 using std::vector;
 using std::min;
 
-void problem(int graph[][V], vector<bool>& v, int currPos,
-         int n, int count, int cost, int& ans)
+void problem(int graph[][V], vector<bool>& v, int currPos, int n, int count, int cost, int& ans)
 {
  
     if (count == n && graph[currPos][0]) {
