@@ -11,11 +11,11 @@ Input consider following values:
 
 { 0, 10, 15, 20 },{ 10, 0, 35, 25 },{ 15, 35, 0, 30 },{ 20, 25, 30, 0 }
 */
+
 #include <stdio.h>
 #include <stdbool.h>
 
 int min(int a, int b);
-
 int problem(int graph[][4], bool v[], int currPos, int n, int count, int cost, int result) {
                 
                 if(count == n  &&  graph[currPos][0] > 0) {
