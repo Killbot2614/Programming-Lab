@@ -1,3 +1,17 @@
+// 10.Travelling Salesman Problem(TSP)
+
+/*Given a set of cities and distances between every pair of cities, the problem is to find the shortest possible route that visits every city exactly once and returns to the starting point. 
+
+    Consider city 1 as the starting and ending point. Since the route is cyclic, we can consider any point as a starting point.
+    Generate all (n-1)! permutations of cities.
+    Calculate the cost of every permutation and keep track of the minimum cost permutation.
+    Return the permutation with minimum cost.
+
+Input consider following values:
+
+{ 0, 10, 15, 20 },{ 10, 0, 35, 25 },{ 15, 35, 0, 30 },{ 20, 25, 30, 0 }
+*/
+
 #include <bits/stdc++.h>
 #define V 4
 using std::cout;
