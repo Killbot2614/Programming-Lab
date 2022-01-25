@@ -56,3 +56,7 @@ int main()
     printf("%d", result);
     return 0;
 }
+
+/* Input: 80
+   Ouptut: 80
+*/
