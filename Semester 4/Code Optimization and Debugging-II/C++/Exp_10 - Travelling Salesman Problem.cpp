@@ -13,16 +13,16 @@ Input consider following values:
 */
 
 #include <bits/stdc++.h>
-#define V 4
+#define x 4
 using std::cout;
 using std::vector;
 using std::min;
 
-void problem(int graph[][V], vector<bool>& v, int currPos, int n, int count, int cost, int& ans)
+void problem(int graph[][x], vector<bool>& v, int currPos, int n, int count, int cost, int& result)
 {
  
     if (count == n && graph[currPos][0]) {
-        ans = min(ans, cost + graph[currPos][0]);
+        result = min(result, cost + graph[currPos][0]);
         return;
     }
     
@@ -31,7 +31,7 @@ void problem(int graph[][V], vector<bool>& v, int currPos, int n, int count, int
             
             v[i] = true;
             problem(graph, v, i, n, count + 1,
-                cost + graph[currPos][i], ans);
+                cost + graph[currPos][i], result);
                 
             v[i] = false;
         }
@@ -41,22 +41,22 @@ void problem(int graph[][V], vector<bool>& v, int currPos, int n, int count, int
 int main()
 {
     int n = 4;
-    int graph[][V] = {
+    int graph[][x] = {
         { 0, 10, 15, 20 },
         { 10, 0, 35, 25 },
         { 15, 35, 0, 30 },
         { 20, 25, 30, 0 }
     };
  
-    vector<bool> v(n);
+    vector <bool> v(n);
     for (int i = 0; i < n; i++)
         v[i] = false;
         
     v[0] = true;
-    int ans = INT_MAX;
+    int result = INT_MAX;
  
-    problem(graph, v, 0, n, 1, 0, ans);
-    cout << ans;
+    problem(graph, v, 0, n, 1, 0, result);
+    cout << result;
     return 0;
 }
 
