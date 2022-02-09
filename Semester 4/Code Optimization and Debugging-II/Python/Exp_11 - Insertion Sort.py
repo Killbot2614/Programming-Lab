@@ -18,7 +18,7 @@ def insertionSort(T1):
 n = int(input())
 
 T1 = input().split()
-T2=T1
+T2 = T1
 T1 = [int(x) for x in T1]
 insertionSort(T1)
 for i in range(len(T1)):
