@@ -1,3 +1,7 @@
+// 13.C program to perform inorder tree traversal
+
+// Perform inorder traversal of a tree with root 25 , left child 15 and write child 30
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -44,3 +48,7 @@ int main() {
   insertRight(root, 30, '\0');
   inorderTraversal(root);
 }
+
+/* Input: root 25 , left child 15 and write child 30
+   Output: 15,25,30
+*/
