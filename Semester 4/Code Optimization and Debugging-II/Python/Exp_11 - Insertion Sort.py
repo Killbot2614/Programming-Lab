@@ -15,7 +15,8 @@ def insertionSort(T1):
         T1[j + 1] = temp
 
 
-n = int(input())
+# n = int(input()) temporarily
+n = 6
 
 T1 = input().split()
 T2 = T1
