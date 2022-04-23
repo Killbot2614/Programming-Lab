@@ -30,8 +30,8 @@ void display(int *array, int size) {
 }
 
 int main() {
-   int n = 6;
-   // cin >> n; temporarily
+   int n;
+   cin >> n;
    int arr[n];
    for(int i = 0; i < n; i++) {
       cin >> arr[i];
