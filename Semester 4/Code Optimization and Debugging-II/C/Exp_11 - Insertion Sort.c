@@ -2,11 +2,8 @@
 
 /*
 Eg:
-
 , n = 
-
 Array Elements = {70, 50, 20, 10, 30, 40, 60}
-
 Sorted Array = {10, 20, 30, 40, 50, 60, 70}
 */
 
@@ -14,10 +11,10 @@ Sorted Array = {10, 20, 30, 40, 50, 60, 70}
 
 int main()
 {
-    int a, b, c, temp;
+    int a = 6, b, c, temp;
     int arr[64];
  
-    scanf("%d", &a);
+    // scanf("%d", &a); temporarily
  
     for (b = 0; b < a; b++)
     {
