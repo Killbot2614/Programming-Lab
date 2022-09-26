@@ -6,9 +6,9 @@ Algorithm
 Step 1: Start the program.
 Step 2: Get the number of memory partition and their sizes.
 Step 3: Get the number of processes and values of block size for each process.
-Step 4: First fit algorithm searches all the entire memory block until a hole which is big enough is encountered. It allocates that memory block for the requesting process.
-Step 5: Best-fit algorithm searches the memory blocks for the smallest hole which can be allocated to requesting process and allocates if.
-Step 6: Worst fit algorithm searches the memory blocks for the largest hole and allocates it to the process.
+Step 4: In first fit algorithm, the pointer keeps track of all the free blocks in the memory and accepts the request of allocating a memory
+Step 5: The best fit deals with allocating the smallest free partition which meets the requirement of the requesting process.
+Step 6: Worst Fit allocates a process to the partition which is largest sufficient among the freely available partitions available in the main memory
 Step 7: Analyses all the three memory management techniques and display the best algorithm which utilizes the memory resources effectively and efficiently.
 Step 8: Stop the program
 */
