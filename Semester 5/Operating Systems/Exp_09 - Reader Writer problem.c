@@ -6,17 +6,10 @@ Algorithm
 1.Start
 2.Initialize two semaphore mutex=1 and db=1 and rc,(Mutex controls the access to read count rc)
 3.Create two threads one as Reader() another as Writer()
-4.Reader Process:
-Step 1: Get exclusive access to rc(lock Mutex)
-Step 2: Increment rc by 1
-Step 3: Get the exclusive access bd(lock bd)
-Step 4: Release exclusive access to rc(unlock Mutex)
-Step 5: Release exclusive access to rc(unlock Mutex)
-Step 6: Read the data from database Step 7: Get the exclusive access to rc(lock mutex)
-Step 8: Decrement rc by 1, if rc =0 this is the last reader.
-Step 9: Release exclusive access to database(unlock mutex)
-Step 10: Release exclusive access to rc(unlock mutex)
-5.Stop
+4.Reader will run after Writer because of read semaphore.
+5.Writer will stop writing when the write semaphore has reached 0.
+6.Reader will stop reading when the read semaphore has reached 0.
+7.Stop
 */
 
 #include<stdio.h>
