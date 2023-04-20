@@ -21,7 +21,8 @@ void push(char item) {
 		printf("\nStack Overflow.");}
 	else {
 		top = top + 1;
-		stack[top] = item;}}
+		stack[top] = item;
+	}}
 char pop() {
 	char item;
 	if (top < 0) {
@@ -33,8 +34,8 @@ char pop() {
 		top = top - 1;
 		return(item);}}
 int is_operator(char symbol) {
-	if (symbol == '^' || symbol == '*' || symbol == '/' || symbol == '+' || symbol)
-		return 1;
+	if (symbol == '^' || symbol == '*' || symbol == '/' || symbol == '+' || symbol == '-') {
+		return 1;}
 	else return 0;}
 int precedence(char symbol) {
 	if (symbol == '^') {
