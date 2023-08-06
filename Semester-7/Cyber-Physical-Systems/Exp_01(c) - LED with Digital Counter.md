@@ -28,4 +28,4 @@ void loop()
 }
 ```
 # DIAGRAM
-![Diagram](/Semester-7/Cyber-Physical-Systems/images/1(a).PNG)
+![Diagram](/Semester-7/Cyber-Physical-Systems/images/1(c).PNG)
