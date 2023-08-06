@@ -17,4 +17,4 @@ void loop(){
  delay(1000);}
 ```
 # DIAGRAM
-![Diagram](/images/1(a).PNG)
+![Diagram](/Semester-7/Cyber-Physical-Systems/images/1(a).PNG)
