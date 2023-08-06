@@ -6,7 +6,6 @@ To pick one-one from the available list of components and create code that will 
 1. Get Arduino Uno, Multimeter, Photoresistor and Resistor from components
 2. Connect multimeter to ground and to pin AO
 3. Connect photoresistor to 5V pin and to the resistor
-CODE:
 # CODE
 ```
 void setup(){
